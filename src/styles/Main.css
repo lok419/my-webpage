@@ -1,0 +1,187 @@
+.panel-body {
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 500;
+  color: #222;
+  background-color: #F7F1E3;
+}
+
+.panel-heading {
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+.panel {
+  border-style: none !important;
+}
+
+.panel-heading {
+  border-style: none !important;
+}
+
+.container-main{
+  background-color: white;
+  display:
+}
+
+.container{
+  padding: 0;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.align-right{
+  float: right;
+}
+
+.progress-hku-gpa > .progress-bar{
+  width: 89%;
+  background-color: DarkGreen !important;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.progress-kyoto-gpa > .progress-bar{
+  width: 91%;
+  background-color: #0f53c1 !important;
+  font-size: 1em;
+  text-align: center;
+    padding-top: 2px;
+}
+
+.panel-education > .panel-body > hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.panel-education > .panel-heading {
+  color: #FFFFFF !important;
+  background-color: #AC80A0 !important;
+}
+
+.panel-skills > .panel-heading {
+  color: #333 !important;
+  background-color: #e5af30 !important;
+}
+
+.panel-working-experience > .panel-heading {
+  color: #FFFFFF !important;
+  background-color: #3685B5 !important;
+}
+
+.panel-language > .panel-heading {
+  color: #FFFFFF !important;
+  background-color: #b58e84 !important;
+}
+
+.progress-hku-gpa, .progress-kyoto-gpa {
+  margin-top: 1em;
+  width: 80%;
+  height: 1.5em;
+}
+
+.panel-education > .panel-body > div, .panel-working-experience > .panel-body > div {
+  line-height: 2;
+}
+
+.progress-ee > .progress-bar{
+  width: 100%;
+  background-color: #44adfd !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-c > .progress-bar{
+  width: 60%;
+  background-color: #53ac53 !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-java > .progress-bar{
+  width: 70%;
+  background-color: #53cef1 !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-python > .progress-bar{
+  width: 80%;
+  background-color: #ffa600 !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-htmlcss > .progress-bar{
+  width: 40%;
+  background-color:#ff347e !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-javascript > .progress-bar{
+  width: 40%;
+  background-color: #ff347e !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-matlab > .progress-bar{
+  width: 70%;
+  background-color: #53cef1 !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-ml > .progress-bar{
+  width: 60%;
+  background-color: #c623ab !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-ml > .progress-bar{
+  width: 60%;
+  background-color: #c623ab !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-cantonese > .progress-bar{
+  width: 90%;
+  background-color: #24b746 !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-mandarin > .progress-bar{
+  width: 60%;
+  background-color: #c623ab !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-english > .progress-bar{
+  width: 70%;
+  background-color: #116060 !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-japanese > .progress-bar{
+  width: 40%;
+  background-color: #ff347e !important;
+  font-size: 1em;
+  text-align: center;
+}
