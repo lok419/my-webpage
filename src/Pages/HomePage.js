@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Heading from '../components/Heading';
 import Main from '../components/Main';
 
-const HomePage = () => (
-  <div>
-    <Heading />
-    <Main />
-  </div>
-)
+class HomePage extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render(){
+    return (
+      <div>
+        <Heading />
+        <Main />
+      </div>
+    );
+  }
+}
 
 export default HomePage

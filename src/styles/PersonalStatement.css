@@ -1,59 +1,85 @@
 .jumbotron-personal {
-  background-color: rgb(156, 184, 179);
+  background-color: rgb(38, 170, 172);
   background-size: cover;
-  padding-top: 14em;
-  height: 400px;
+  padding-top: 7.5em;
+  height: 350px;
   margin-bottom: 2em;
-  color: black;
   text-align: center;
-
 }
 
 .jumbotron-personal > h1 {
-    font: 600 1.5em/1 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    position: absolute;
-    top: 10%;
-    width: 100%;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 100px;
+  margin: 0 0 24px;
+  text-align: center;
 }
 
-.jumbotron-personal > h1 > span, .personal-jumbotron > h1 > span:after {
-    font-weight: 900;
-    color: #efedce;
-    white-space: nowrap;
-    display: inline-block;
-    position: relative;
-    letter-spacing: .1em;
-    padding: .2em 0 .25em 0;
+div:first-child.fadeInLeft {
+  animation-delay: 0.3s;
 }
 
-.jumbotron-personal > h1 > span {
-    font-size: 4em;
-    z-index: 100;
-    text-shadow: .04em .04em 0 #9cb8b3;
+div:nth-child(2).fadeInLeft {
+  animation-delay: 0.7s;
 }
 
-.jumbotron-personal > h1 > span:after {
-    content: attr(data-shadow-text);
-    color: rgba(0,0,0,.35);
-    text-shadow: none;
-    position: absolute;
-    left: .0875em;
-    top: .0875em;
-    z-index: -1;
-    -webkit-mask-image: url(https://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0); }
 }
 
-.personal_image > img {
+.container-personal > .row > .col-md-4 > div > img  {
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgba(230, 230, 230);
+  padding: 0;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.container-personal > .row > .col-md-4 > div > img:hover {
+  transition: 0.5s ease;
+  box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.2);
+}
+
+.image-personal > img {
+  margin-top: 20px;
+}
+
+.image-programming > img {
+  margin-top: 60px;
+}
+
+.image-hobbies > img {
+  margin-top: 25px;
+}
+
+.container-personal > .row{
+  background: rgb(219, 239, 240);
   border-radius: 25px;
-  padding: 20px;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 30px;
 }
 
-.col-md-4, .col-md-8 {
+.container-personal > .row > .col-md-8 > h2 {
+  color: rgb(17,96,98);
+  font-family: 'Raleway',sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 ;
+  text-align: left;
+  text-transform: uppercase;
+}
 
+.container-personal > .row > .col-md-8 > p {
+  color: rgb(69,116,135);
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0 0 24px;
 }

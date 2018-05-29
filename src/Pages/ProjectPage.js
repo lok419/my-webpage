@@ -1,10 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 
+class ProjectPage extends Component {
 
-const ProjectPage = () => (
-  <div>
-    <h1>ProjectPage</h1>
-  </div>
-)
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        <br />
+        <br />
+        <h1>ProjectPage</h1>
+      </div>
+    );
+  }
+
+}
 
 export default ProjectPage
