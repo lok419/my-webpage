@@ -1,8 +1,8 @@
 .jumbotron-personal {
   background-color: rgb(38, 170, 172);
   background-size: cover;
-  padding-top: 7.5em;
-  height: 350px;
+  padding-top: 7vw;
+  height: 22.75vw;
   margin-bottom: 2em;
   text-align: center;
 }
@@ -10,27 +10,35 @@
 .jumbotron-personal > h1 {
   color: #ffffff;
   font-family: 'Raleway',sans-serif;
-  font-size: 62px;
+  font-size: 4.1vw;
   font-weight: 800;
-  line-height: 100px;
-  margin: 0 0 24px;
+  line-height: 6.5vw;
+  margin: 0 0 1.56vw;
   text-align: center;
 }
 
-div:first-child.fadeInLeft {
+.jumbotron-personal > h1 > .title1.fadeInLeft-custom {
   animation-delay: 0.3s;
 }
 
-div:nth-child(2).fadeInLeft {
+.jumbotron-personal > h1 > .title2.fadeInLeft-custom {
   animation-delay: 0.7s;
 }
 
-@keyframes fadeInLeft {
+@keyframes fadeInLeft-custom {
   from {
     opacity: 0;
     -webkit-transform: translate3d(-10%, 0, 0);
     transform: translate3d(-10%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
 }
+
+.fadeInLeft-custom {
+  -webkit-animation-name: fadeInLeft-custom;
+  animation-name: fadeInLeft-custom; }
 
 .container-personal > .row > .col-md-4 > div > img  {
   border-radius: 10px;
@@ -62,6 +70,7 @@ div:nth-child(2).fadeInLeft {
   background: rgb(219, 239, 240);
   border-radius: 25px;
   margin-bottom: 30px;
+  padding-left: 10px;
 }
 
 .container-personal > .row > .col-md-8 > h2 {
@@ -75,7 +84,7 @@ div:nth-child(2).fadeInLeft {
   text-transform: uppercase;
 }
 
-.container-personal > .row > .col-md-8 > p {
+.container-personal > .row > .col-md-8 > p{
   color: rgb(69,116,135);
   font-family: 'Raleway',sans-serif;
   font-size: 18px;

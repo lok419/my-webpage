@@ -15,8 +15,8 @@ class PersonalStatement extends Component {
       <div>
         <div class='jumbotron jumbotron-personal animated fadeIn wow'>
           <h1>
-            <div class='animated fadeInLeft fadeIn wow'>HELLO WORLD</div>
-            <div class="animated fadeInLeft wow">I&#39;M JACK</div>
+            <div class='animated fadeInLeft-custom wow title1'>HELLO WORLD</div>
+            <div class="animated fadeInLeft-custom wow title2">I&#39;M JACK</div>
           </h1>
         </div>
         <div class='container container-personal'>

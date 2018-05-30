@@ -60,7 +60,7 @@ class Main extends Component {
   render() {
     return (
       <div class='container container-main'>
-      
+
         <div class="row">
           <div class="col-md-8 animated fadeIn wow">
             <div class="panel panel-primary panel-about-me">

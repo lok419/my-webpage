@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Projects from '../components/Projects';
 
 class ProjectPage extends Component {
 
@@ -9,9 +10,7 @@ class ProjectPage extends Component {
   render() {
     return (
       <div>
-        <br />
-        <br />
-        <h1>ProjectPage</h1>
+        <Projects />
       </div>
     );
   }

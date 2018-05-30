@@ -15,9 +15,9 @@ class Heading extends Component {
       <div class='container-heading'>
         <div class="jumbotron wow animated fadeIn">
           <div class='icon center-block wow animated zoomIn wow'>
-            <img src={icon1} width="200" height="200" alt="icon1"/>
+            <img src={icon1} alt="icon1"/>
             <div class="overlay">
-              <img src={icon2} width="200" height="200" alt="icon2"/>
+              <img src={icon2} alt="icon2"/>
             </div>
           </div>
           <div class='heading'>HI, I&#39;M CHEUNG CHUN LOK</div>

@@ -1,0 +1,125 @@
+.jumbotron-projects {
+  background-image: url("../images/jumbotron-projects.gif");
+  background-size: cover;
+  background-position: 0px -7.8vw;
+  height: 39vw;
+  width: 100%;
+  margin-bottom: 2em;
+  text-align: center;
+  animation: back-change 0.5s linear;
+  animation-delay: 2s;
+  animation-fill-mode:forwards;
+  z-index: -1;
+}
+
+.title-projects > h1 {
+  color: rgb(211,211,211);
+  font-family: 'Raleway',sans-serif;
+  font-size: 4.1vw;
+  font-weight: 800;
+  line-height: 6.5vw;
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 13vw;
+  z-index: 2;
+}
+
+@keyframes back-change {
+   from { filter: brightness(100%); }
+     to { filter: brightness(20%); }
+}
+
+.title-projects > h1 > .title1-projects.fadeInLeft-custom {
+  animation-delay: 2.5s
+}
+
+.title-projects > h1 >  .title2-projects.fadeInLeft-custom {
+  animation-delay: 2.9s
+}
+
+.heading-projects.fadeIn {
+  animation-duration: 0.4s;
+}
+
+.container-projects > .row{
+  background: #ECEAE0;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+.container-projects > :first-child {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding bottom: 10px;
+}
+
+.container-projects > .row > .col-md-8 > h2, .container-projects > .row > h2,
+.container-projects > .row > .col-md-12 > h2 {
+  color: #221E1D;
+  font-family: 'Raleway',sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 ;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.container-projects > .row > .col-md-8 > p, .container-projects > .row > p {
+  color: #221E1D;
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+.container-projects > .row > .col-md-4 > div > img  {
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgba(230, 230, 230);
+  padding: 0;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.container-projects > .row > .col-md-4 > div > img:hover {
+  transition: 0.5s ease;
+  box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.2);
+}
+
+.image-project1_1 {
+  margin-top: 80px;
+}
+
+.image-project1_2 {
+  margin-top: 80px;
+}
+
+.row > hr {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.col-md-12 > iframe {
+  height: 31.9vw;
+  width: 56vw;
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .col-md-12 > iframe {
+    height: 158px;
+    width: 281px;
+  }
+} */
