@@ -59,19 +59,20 @@
   padding bottom: 10px;
 }
 
-.container-projects > .row > .col-md-8 > h2, .container-projects > .row > h2,
-.container-projects > .row > .col-md-12 > h2 {
+.container-projects > .row > [class^="col-md"] > h2, .container-projects > .row > h2 {
   color: #221E1D;
   font-family: 'Raleway',sans-serif;
   font-size: 30px;
   font-weight: 800;
-  line-height: 72px;
   margin: 0 0 ;
   text-align: left;
   text-transform: uppercase;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.container-projects > .row > .col-md-8 > p, .container-projects > .row > p {
+.container-projects > .row > [class^="col-md"] > p, .container-projects > .row > p {
   color: #221E1D;
   font-family: 'Raleway',sans-serif;
   font-size: 18px;
@@ -80,7 +81,7 @@
   margin: 0 0 24px;
 }
 
-.container-projects > .row > .col-md-4 > div > img  {
+.container-projects > .row > [class^="col-md"] > div > img  {
   border-radius: 10px;
   border-width: 2px;
   border-color: rgba(230, 230, 230);
@@ -89,7 +90,7 @@
   max-height: auto;
 }
 
-.container-projects > .row > .col-md-4 > div > img:hover {
+.container-projects > .row > [class^="col-md"] > div > img:hover {
   transition: 0.5s ease;
   box-shadow: 0 0 5px 5px rgba(0, 140, 186, 0.2);
 }
@@ -101,6 +102,17 @@
 .image-project1_2 {
   margin-top: 80px;
 }
+
+@media only screen and (max-width: 991px) {
+  .image-project1_1 {
+    margin-top: 20px;
+  }
+
+  .image-project1_2 {
+    margin-top: 0;
+  }
+}
+
 
 .row > hr {
   display: block;
@@ -117,9 +129,49 @@
   width: 56vw;
 }
 
-/* @media only screen and (max-width: 1000px) {
-  .col-md-12 > iframe {
-    height: 158px;
-    width: 281px;
+.project2_poster_modal {
+  width: 1200px;
+}
+
+.project2_poster > .overlay {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.project2_poster > .overlay:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.project2_poster > .overlay > h2 {
+  color: white;
+  text-align: center;
+  line-height: 605px;
+  padding: 0;
+  margin: 0;
+}
+
+.project2_poster {
+  position: relative;
+  width: 350px;
+}
+
+@media only screen and (max-width: 455px) {
+  .project2_poster {
+    position: relative;
+    width: 75vw;
   }
-} */
+
+  .project2_poster > .overlay > h2 {
+    font-size: 6.5vw;
+    line-height: 120vw;
+  }
+}

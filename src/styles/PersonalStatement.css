@@ -59,7 +59,14 @@
 }
 
 .image-programming > img {
-  margin-top: 60px;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 991px) {
+  .image-programming > img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .image-hobbies > img {
@@ -82,6 +89,9 @@
   margin: 0 0 ;
   text-align: left;
   text-transform: uppercase;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container-personal > .row > .col-md-8 > p{

@@ -268,6 +268,19 @@ class Main extends Component {
                     <li>Translated document from Japanese into English and Simplified Chinese</li>
                   </ul>
                 </div>
+                <hr></hr>
+                <div>
+                  <span class="align-left">Zensis Limited</span>
+                  <span class="align-right">China, Hong Kong</span>
+                </div>
+                <div>
+                  <span class="align-left">Programmer</span>
+                  <span class="align-right">June 2018 – "Present"</span>
+                </div>
+                <div>
+                  <ul>
+                  </ul>
+                </div>
 
               </div>
             </div>
