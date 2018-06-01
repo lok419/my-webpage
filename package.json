@@ -2,7 +2,7 @@
   "name": "my-webpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lok419.github.io/my-webpage",
+  "homepage": "http://lok419.github.io/my-webpage/",
   "dependencies": {
     "npm": "^6.1.0",
     "react": "^16.4.0",
