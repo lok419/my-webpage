@@ -14,9 +14,9 @@ import ProjectPage from './ProjectPage';
 const Page = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={HomePage}/>
-      <Route path='/personal' component={PersonalPage}/>
-      <Route path='/projects' component={ProjectPage}/>
+      <Route exact path='/my-webpage/' component={HomePage}/>
+      <Route path='/my-webpage/personal' component={PersonalPage}/>
+      <Route path='/my-webpage/projects' component={ProjectPage}/>
     </Switch>
   </main>
 )

@@ -34,11 +34,11 @@
 }
 
 .title-projects > h1 > .title1-projects.fadeInLeft-custom {
-  animation-delay: 2.5s
+  animation-delay: 2.5s;
 }
 
 .title-projects > h1 >  .title2-projects.fadeInLeft-custom {
-  animation-delay: 2.9s
+  animation-delay: 2.9s;
 }
 
 .heading-projects.fadeIn {
@@ -56,7 +56,7 @@
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
-  padding bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .container-projects > .row > [class^="col-md"] > h2, .container-projects > .row > h2 {

@@ -113,12 +113,12 @@ class Main extends Component {
                   <ul>
                       <li>Summer internship through Cyberport Digital Tech Internship Programme 2016: Shanghai stream</li>
                       <li>Outstanding Performance in modules Microcontroller and Virtual Instrumentation in Engineering Training provided by the University of Hong Kong</li>
-                      <li>Hongkong Electric Electrical Energy Scholarships for 2015-16</li>
+                      <li>Hongkong Electric Electrical Energy Scholarships for 2015-2016</li>
                       <li>2015-2016 Dean&#39;s Honours List</li>
                       <li>2016-2017 Dean&#39;s Honours List</li>
-                      <li>Hongkong Electric Electrical Energy Scholarships for 2016-17</li>
+                      <li>Hongkong Electric Electrical Energy Scholarships for 2016-2017</li>
                       <li>Philip K H Wong Foundation Scholarships for Student Enrichment for 2016-2017</li>
-                      <li>Simatelex Charitable Foundation Scholarships</li>
+                      <li>Simatelex Charitable Foundation Scholarships for 2017-2018</li>
                   </ul>
                 </div>
                 <hr></hr>

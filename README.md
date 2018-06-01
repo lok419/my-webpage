@@ -7,6 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 3. npm start
 
-4. Go to http://localhost:3000/
+4. Go to http://localhost:3000/my-webpage/
 
 ### Demo: https://lok419.github.io/my-webpage/
