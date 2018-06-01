@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
 import {Button, Modal} from 'react-bootstrap';
-import project2_poster from '../images/project2_poster.png'
 
-class Poster extends Component {
+/*
+props:
+name: classname for entire component
+=> example: name = "poster"
+classname of small image = "poster_small"
+classname of large image = "poster_large"
+classname of modal = "poster_modal"
+
+image: pass an image object to render
+*/
+
+class ModalImage extends Component {
   constructor(props, context) {
     super(props, context);
     this.handleShow = this.handleShow.bind(this);
     this.handleHide = this.handleHide.bind(this);
-
     this.state = {
       show: false
     };
@@ -23,8 +32,8 @@ class Poster extends Component {
 
   render() {
     return (
-      <div class="project2_poster center-block">
-          <img src={project2_poster} alt="project2_poster_small"/>
+      <div class={this.props.name+ " center-block"} >
+          <img class={this.props.name+ "_small"} src={this.props.image} alt={this.props.name+ "_small"} />
           <div class="overlay"  onClick={this.handleShow}>
             <h2>Click here to enlarge <span class="glyphicon">&#xe015;</span></h2>
           </div>
@@ -32,7 +41,7 @@ class Poster extends Component {
           {...this.props}
           show={this.state.show}
           onHide={this.handleHide}
-          dialogClassName="project2_poster_modal"
+          dialogClassName= {this.props.name + "_modal"}
         >
           <Modal.Header closeButton>
             <Modal.Title id="contained-modal-title-lg">
@@ -40,7 +49,7 @@ class Poster extends Component {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              <img class="center-block" src={project2_poster} height="auto" width="1000px" alt="project2_poster_large"/>
+              <img class={this.props.name +"_large center-block"} src={this.props.image} alt={this.props.name +"_large"}/>
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={this.handleHide}>Close</Button>
@@ -51,4 +60,4 @@ class Poster extends Component {
   }
 }
 
-export default Poster;
+export default ModalImage;

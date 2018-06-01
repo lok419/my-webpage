@@ -133,6 +133,16 @@
   width: 1200px;
 }
 
+.project2_poster {
+  position: relative;
+  width: 350px;
+}
+
+.project2_poster_small {
+  height: 100%;
+  width: 100%;
+}
+
 .project2_poster > .overlay {
   position: absolute;
   border-radius: 10px;
@@ -159,9 +169,9 @@
   margin: 0;
 }
 
-.project2_poster {
-  position: relative;
-  width: 350px;
+.project2_poster_large{
+  width: 1000px;
+  height: auto;
 }
 
 @media only screen and (max-width: 455px) {

@@ -4,7 +4,8 @@ import WOW from 'wowjs';
 import project1_1 from '../images/project1_1.png';
 import project1_2 from '../images/project1_2.png';
 import project2_reward from '../images/project2_reward.jpg';
-import Poster from './Poster';
+import project2_poster from '../images/project2_poster.png';
+import ModalImage from './ModalImage';
 
 
 class Projects extends Component {
@@ -100,7 +101,7 @@ class Projects extends Component {
               </p>
             </div>
             <div class="col-md-4 animated fadeIn wow" style={{marginBottom:"20px"}}>
-              <Poster />
+              <ModalImage name="project2_poster" image={project2_poster} />
             </div>
             <hr></hr>
             <div class="col-md-8 animated fadeIn wow">
