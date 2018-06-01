@@ -10,11 +10,10 @@ class ProjectPage extends Component {
   render() {
     return (
       <div>
-        
+        <Projects />
       </div>
     );
   }
-
 }
 
 export default ProjectPage
