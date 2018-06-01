@@ -2,6 +2,7 @@
   "name": "my-webpage",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://lok419.github.io/my-webpage",
   "dependencies": {
     "npm": "^6.1.0",
     "react": "^16.4.0",
@@ -16,11 +17,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "webpack-cli": "^2.1.4"
   },
   "author": "",
