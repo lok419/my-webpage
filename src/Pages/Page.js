@@ -14,9 +14,9 @@ import ProjectPage from './ProjectPage';
 const Page = () => (
   <main>
     <Switch>
-      <Route exact path='/my-webpage/' component={HomePage}/>
-      <Route path='/my-webpage/personal' component={PersonalPage}/>
-      <Route path='/my-webpage/projects' component={ProjectPage}/>
+      <Route exact path={process.env.PUBLIC_URL+'/'} component={HomePage}/>
+      <Route path={process.env.PUBLIC_URL+'/personal'} component={PersonalPage}/>
+      <Route path={process.env.PUBLIC_URL+'/projects'} component={ProjectPage}/>
     </Switch>
   </main>
 )
