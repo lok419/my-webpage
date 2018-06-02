@@ -52,7 +52,7 @@ class Projects extends Component {
                 with Wi-Fi connections.
               </p>
             </div>
-            <hr></hr>
+            <div><hr></hr></div>
             <div class="col-md-8 animated fadeIn wow">
               <h2>Internet of things (IoT)</h2>
               <p>
@@ -68,7 +68,7 @@ class Projects extends Component {
                 <img src={project1_2} alt="project1_2" />
               </div>
             </div>
-            <hr></hr>
+            <div><hr></hr></div>
             <div class="col-md-12 animated fadeIn wow">
               <h2 style={{textAlign: 'center'}}>Demostration Video</h2>
               <iframe class='center-block responsive' style={{marginBottom:"2em"}} src="https://www.youtube.com/embed/RjFxPih5qoA"
@@ -103,7 +103,7 @@ class Projects extends Component {
             <div class="col-md-4 animated fadeIn wow" style={{marginBottom:"20px"}}>
               <ModalImage name="project2_poster" image={project2_poster} />
             </div>
-            <hr></hr>
+            <div><hr></hr></div>
             <div class="col-md-8 animated fadeIn wow">
               <p>
                 The poster briefly summarizes the features of this project and was rewarded one of the best poster design
