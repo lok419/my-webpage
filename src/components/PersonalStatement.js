@@ -35,7 +35,7 @@ class PersonalStatement extends Component {
                 an Electrical Engineer. <br />
                 "Am I bad in Electrical Engineering ?" No. I&#39;m really good at
                 Electrical Engineering, was almost the top one in Department.
-                I like everything related to computer, that&#39; why I chose to start my career in IT sector.
+                I like everything related to computer, that&#39;s why I chose to start my career in IT sector.
               </p>
             </div>
           </div>
