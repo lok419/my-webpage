@@ -14,13 +14,13 @@ class Navbars extends Component {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="navbar-brand"><Link to='/my-webpage' style={{color: '#4479D4', textDecoration: 'none'}} activeStyle={{color: 'red'} }>JACK CHEUNG</Link></div>
+            <div class="navbar-brand"><Link to={process.env.PUBLIC_URL+'/'} style={{color: '#4479D4', textDecoration: 'none'}} activeStyle={{color: 'red'} }>JACK CHEUNG</Link></div>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><Link to='/my-webpage'><span class="glyphicon">&#xe021;</span> Home</Link></li>
-              <li><Link to='/my-webpage/personal'><span class="glyphicon">&#xe008;</span> Personal</Link></li>
-              <li><Link to='/my-webpage/projects'><span class="glyphicon">&#xe022;</span> Projects</Link></li>
+              <li><Link to={process.env.PUBLIC_URL+'/'}><span class="glyphicon">&#xe021;</span> Home</Link></li>
+              <li><Link to={process.env.PUBLIC_URL+'/personal'}><span class="glyphicon">&#xe008;</span> Personal</Link></li>
+              <li><Link to={process.env.PUBLIC_URL+'/projects'}><span class="glyphicon">&#xe022;</span> Projects</Link></li>
             </ul>
           </div>
         </div>

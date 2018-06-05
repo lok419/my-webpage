@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This is a personal website which was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ### To run this webapp on localhost:3000
 1. Clone this project
@@ -7,6 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 3. npm start
 
-4. Go to http://localhost:3000/my-webpage/
+4. Go to http://localhost:3000/my-webpage/ (Chrome preferred)
 
 ### Demo: https://lok419.github.io/my-webpage/
