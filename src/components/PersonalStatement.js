@@ -13,20 +13,20 @@ class PersonalStatement extends Component {
   render() {
     return (
       <div>
-        <div class='jumbotron jumbotron-personal animated fadeIn wow'>
+        <div className='jumbotron jumbotron-personal animated fadeIn wow'>
           <h1>
-            <div class='animated fadeInLeft-custom wow title1'>HELLO WORLD</div>
-            <div class="animated fadeInLeft-custom wow title2">I&#39;M JACK</div>
+            <div className='animated fadeInLeft-custom wow title1'>HELLO WORLD</div>
+            <div className="animated fadeInLeft-custom wow title2">I&#39;M JACK</div>
           </h1>
         </div>
-        <div class='container container-personal'>
-          <div class="row">
-            <div class="col-md-4 animated fadeIn wow">
-              <div class="image-personal center-block">
-                <img class="responsive" src={image_personal}  alt='personal_image'/>
+        <div className='container container-personal'>
+          <div className="row">
+            <div className="col-md-4 animated fadeIn wow">
+              <div className="image-personal center-block">
+                <img className="responsive" src={image_personal}  alt='personal_image'/>
               </div>
             </div>
-            <div class="col-md-8 animated fadeIn wow">
+            <div className="col-md-8 animated fadeIn wow">
               <h2>About me</h2>
               <p>
                 I&#39;m Cheung Chun Lok, or I prefer you calling me Jack.
@@ -39,8 +39,8 @@ class PersonalStatement extends Component {
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-8 animated fadeIn wow">
+          <div className="row">
+            <div className="col-md-8 animated fadeIn wow">
               <h2>Experiences</h2>
               <p>
                 I have prior experience in C++, Java and Python.
@@ -52,19 +52,19 @@ class PersonalStatement extends Component {
                 And now ......
               </p>
             </div>
-            <div class="col-md-4 animated fadeIn wow">
-              <div class="image-programming center-block">
-                <img class="responsive" src={image_programming}  alt='image_programming'/>
+            <div className="col-md-4 animated fadeIn wow">
+              <div className="image-programming center-block">
+                <img className="responsive" src={image_programming}  alt='image_programming'/>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-4 animated fadeIn wow">
-              <div class="image-hobbies center-block">
-                <img class="responsive" src={image_hobbies}  alt='image_hobbies'/>
+          <div className="row">
+            <div className="col-md-4 animated fadeIn wow">
+              <div className="image-hobbies center-block">
+                <img className="responsive" src={image_hobbies}  alt='image_hobbies'/>
               </div>
             </div>
-            <div class="col-md-8 animated fadeIn wow">
+            <div className="col-md-8 animated fadeIn wow">
               <h2>Hobbies and Interests</h2>
               <p>
                 I like gaming, no matter which types, like FPS, TPS, RPG or Sport. Among all of them,

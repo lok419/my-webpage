@@ -32,24 +32,24 @@ class ModalImage extends Component {
 
   render() {
     return (
-      <div class={this.props.name+ " center-block"} >
-          <img class={this.props.name+ "_small"} src={this.props.image} alt={this.props.name+ "_small"} />
-          <div class="overlay"  onClick={this.handleShow}>
-            <h2>Click here to enlarge <span class="glyphicon">&#xe015;</span></h2>
+      <div className={this.props.name+ " center-block"} >
+          <img className={this.props.name+ "_small"} src={this.props.image} alt={this.props.name+ "_small"} />
+          <div className="overlay"  onClick={this.handleShow}>
+            <h2>Click here to enlarge <span className="glyphicon">&#xe015;</span></h2>
           </div>
         <Modal
           {...this.props}
           show={this.state.show}
           onHide={this.handleHide}
-          dialogClassName= {this.props.name + "_modal"}
+          dialogClassName= {this.props.name + "_modal center-block"}
         >
           <Modal.Header closeButton>
-            <Modal.Title id="contained-modal-title-lg">
+            <Modal.Title id="contained-modal-title-lg" style={{fontSize:"2vw"}}>
               An Investigation on Quantitative Techniques for Computational Finance (poster)
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              <img class={this.props.name +"_large center-block"} src={this.props.image} alt={this.props.name +"_large"}/>
+              <img className={this.props.name +"_large center-block"} src={this.props.image} alt={this.props.name +"_large"}/>
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={this.handleHide}>Close</Button>

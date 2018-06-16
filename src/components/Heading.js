@@ -12,15 +12,15 @@ class Heading extends Component {
 
   render() {
     return (
-      <div class='container-heading'>
-        <div class="jumbotron wow animated fadeIn">
-          <div class='icon center-block wow animated zoomIn wow'>
+      <div className='container-heading'>
+        <div className="jumbotron wow animated fadeIn">
+          <div className='icon center-block wow animated zoomIn wow'>
             <img src={icon1} alt="icon1"/>
-            <div class="overlay">
+            <div className="overlay">
               <img src={icon2} alt="icon2"/>
             </div>
           </div>
-          <div class='heading'>HI, I&#39;M CHEUNG CHUN LOK</div>
+          <div className='heading'>HI, I&#39;M CHEUNG CHUN LOK</div>
         </div>
       </div>
     );

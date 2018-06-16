@@ -59,13 +59,13 @@ class Main extends Component {
 
   render() {
     return (
-      <div class='container container-main'>
+      <div className='container container-main'>
 
-        <div class="row">
-          <div class="col-md-8 animated fadeIn wow">
-            <div class="panel panel-primary panel-about-me">
-              <div class="panel-heading"><span class="glyphicon">&#xe008;</span> About Me</div>
-              <div class="panel-body">
+        <div className="row">
+          <div className="col-md-8 animated fadeIn wow">
+            <div className="panel panel-primary panel-about-me">
+              <div className="panel-heading"><span className="glyphicon">&#xe008;</span> About Me</div>
+              <div className="panel-body">
                 <p>
                   I am a fresh graduate at the University of Hong Kong with a major in electrical engineering. A highly
                   motivated and hardworking individual, who recently seeking for valuable opportunity for long term career
@@ -74,16 +74,16 @@ class Main extends Component {
               </div>
             </div>
           </div>
-          <div class="col-md-4  animated fadeIn wow">
-            <div class="panel panel-success panel-contact">
-              <div class="panel-heading"><span class="glyphicon">&#xe182;</span> Contact</div>
-              <div class="panel-body">
-                <p><span class="align-left"><span class="glyphicon">&#x2709;</span> Email:</span> <span class="align-right">cheungchunlok419@gmail.com</span></p>
-                <p><span class="align-left"><span class="glyphicon">&#xe183;</span> Phone:</span> <span class="align-right">852-68409090</span></p>
+          <div className="col-md-4  animated fadeIn wow">
+            <div className="panel panel-success panel-contact">
+              <div className="panel-heading"><span className="glyphicon">&#xe182;</span> Contact</div>
+              <div className="panel-body">
+                <p><span className="align-left"><span className="glyphicon">&#x2709;</span> Email:</span> <span className="align-right">cheungchunlok419@gmail.com</span></p>
+                <p><span className="align-left"><span className="glyphicon">&#xe183;</span> Phone:</span> <span className="align-right">852-68409090</span></p>
                 <p>
-                  <span class="align-left"><span class="glyphicon">&#xe021;</span> Address:</span> <span class="align-right">Flat F, 3/F, Block 3</span><br />
-                  <span class="align-right">Carado Garden, Taiwai</span><br />
-                  <span class="align-right">Hong Kong, China</span>
+                  <span className="align-left"><span className="glyphicon">&#xe021;</span> Address:</span> <span className="align-right">Flat F, 3/F, Block 3</span><br />
+                  <span className="align-right">Carado Garden, Taiwai</span><br />
+                  <span className="align-right">Hong Kong, China</span>
                 </p>
               </div>
             </div>
@@ -91,20 +91,20 @@ class Main extends Component {
         </div>
 
 
-        <div class="row animated">
-          <div class="col-md-8 animated fadeIn wow">
-            <div class="panel panel-primary panel-education">
-              <div class="panel-heading"><span class="glyphicon">&#xe233;</span> Education</div>
-              <div class="panel-body">
+        <div className="row animated">
+          <div className="col-md-8 animated fadeIn wow">
+            <div className="panel panel-primary panel-education">
+              <div className="panel-heading"><span className="glyphicon">&#xe233;</span> Education</div>
+              <div className="panel-body">
                 <div>
-                  <span class="align-left">The University of Hong Kong, Hong Kong</span>
-                  <span class="align-right">September 2014 – June 2018</span>
+                  <span className="align-left">The University of Hong Kong, Hong Kong</span>
+                  <span className="align-right">September 2014 – June 2018</span>
                 </div>
                 <div>
-                  <span class="align-left">BENG in Electrical Engineering</span>
+                  <span className="align-left">BENG in Electrical Engineering</span>
                 </div>
-                <div class="progress progress-hku-gpa center-block">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-hku-gpa center-block">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                     CGPA: 3.86 out of 4.3
                   </div>
@@ -123,12 +123,12 @@ class Main extends Component {
                 </div>
                 <hr></hr>
                 <div>
-                  <span class="align-left">Semester Abroad in Kyoto University, Japan</span>
-                  <span class="align-right">April 2017 – September 2017</span>
+                  <span className="align-left">Semester Abroad in Kyoto University, Japan</span>
+                  <span className="align-right">April 2017 – September 2017</span>
                 </div>
                 <div>Kyoto University International Education Program</div>
-                <div class="progress progress-kyoto-gpa center-block">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-kyoto-gpa center-block">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                     SGPA: 3.9 out of 4.3
                   </div>
@@ -142,19 +142,19 @@ class Main extends Component {
               </div>
             </div>
           </div>
-          <div class="col-md-4 animated fadeIn wow">
-            <div class="panel panel-success panel-skills">
-              <div class="panel-heading"><span class="glyphicon">&#xe006;</span> Skills</div>
-              <div class="panel-body">
+          <div className="col-md-4 animated fadeIn wow">
+            <div className="panel panel-success panel-skills">
+              <div className="panel-heading"><span className="glyphicon">&#xe006;</span> Skills</div>
+              <div className="panel-body">
 
                 <div>
                   Electrical Engineering
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_ee}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                  <div class="progress progress-ee">
-                    <div class="progress-bar progress-bar-striped active" role="progressbar"
+                  <div className="progress progress-ee">
+                    <div className="progress-bar progress-bar-striped active" role="progressbar"
                     aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                     </div>
                   </div>
@@ -162,11 +162,11 @@ class Main extends Component {
                 <div>
                   C++, C
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_c}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-c">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-c">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -174,11 +174,11 @@ class Main extends Component {
                 <div>
                   Java
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_java}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-java">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-java">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -186,11 +186,11 @@ class Main extends Component {
                 <div>
                   Python
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_python}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-python">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-python">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -198,11 +198,11 @@ class Main extends Component {
                 <div>
                   HTML/CSS
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_htmlcss}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-htmlcss">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-htmlcss">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -210,11 +210,11 @@ class Main extends Component {
                 <div>
                   Javascript
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_javascript}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-javascript">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-javascript">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -222,11 +222,11 @@ class Main extends Component {
                 <div>
                   Matlab
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_matlab}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-matlab">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-matlab">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -234,11 +234,11 @@ class Main extends Component {
                 <div>
                   Machine Learning
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_ml}>
-                  <span class="glyphicon align-right">&#xe085;</span>
+                  <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
                 </ div>
-                <div class="progress progress-ml">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-ml">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   </div>
                 </div>
@@ -248,18 +248,18 @@ class Main extends Component {
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-8 animated fadeIn wow">
-            <div class="panel panel-primary panel-working-experience">
-              <div class="panel-heading"><span class="glyphicon">&#xe139;</span> Working Experience</div>
-              <div class="panel-body">
+        <div className="row">
+          <div className="col-md-8 animated fadeIn wow">
+            <div className="panel panel-primary panel-working-experience">
+              <div className="panel-heading"><span className="glyphicon">&#xe139;</span> Working Experience</div>
+              <div className="panel-body">
                 <div>
-                  <span class="align-left">SIM Technology Group</span>
-                  <span class="align-right">China, Shanghai</span>
+                  <span className="align-left">SIM Technology Group</span>
+                  <span className="align-right">China, Shanghai</span>
                 </div>
                 <div>
-                  <span class="align-left">Programmer</span>
-                  <span class="align-right">June 2016 – August 2016</span>
+                  <span className="align-left">Programmer</span>
+                  <span className="align-right">June 2016 – August 2016</span>
                 </div>
                 <div>
                   <ul>
@@ -270,12 +270,12 @@ class Main extends Component {
                 </div>
                 <hr></hr>
                 <div>
-                  <span class="align-left">Zensis Limited</span>
-                  <span class="align-right">China, Hong Kong</span>
+                  <span className="align-left">Zensis Limited</span>
+                  <span className="align-right">China, Hong Kong</span>
                 </div>
                 <div>
-                  <span class="align-left">Programmer</span>
-                  <span class="align-right">June 2018 – "Present"</span>
+                  <span className="align-left">Programmer</span>
+                  <span className="align-right">June 2018 – "Present"</span>
                 </div>
                 <div>
                   <ul>
@@ -286,16 +286,16 @@ class Main extends Component {
             </div>
           </div>
 
-          <div class="col-md-4 animated fadeIn wow">
-            <div class="panel panel-success panel-language">
-              <div class="panel-heading"><span class="glyphicon">&#x270f;</span> Language</div>
-              <div class="panel-body panel-skills">
+          <div className="col-md-4 animated fadeIn wow">
+            <div className="panel panel-success panel-language">
+              <div className="panel-heading"><span className="glyphicon">&#x270f;</span> Language</div>
+              <div className="panel-body panel-skills">
 
                 <div>
                   Cantonese
                 </ div>
-                <div class="progress progress-cantonese">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-cantonese">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   Fluent
                   </div>
@@ -304,8 +304,8 @@ class Main extends Component {
                 <div>
                   Mandarin
                 </ div>
-                <div class="progress progress-mandarin">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-mandarin">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   Intermediate
                   </div>
@@ -314,8 +314,8 @@ class Main extends Component {
                 <div>
                   English
                 </ div>
-                <div class="progress progress-english">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-english">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   Advanced
                   </div>
@@ -324,8 +324,8 @@ class Main extends Component {
                 <div>
                   Japanese
                 </ div>
-                <div class="progress progress-japanese">
-                  <div class="progress-bar progress-bar-striped active" role="progressbar"
+                <div className="progress progress-japanese">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
                   Basic
                   </div>
