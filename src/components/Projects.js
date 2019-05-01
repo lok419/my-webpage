@@ -49,7 +49,8 @@ class Projects extends Component {
                 energy for control circuits and mechanical loads. The systems will conduct self-modification
                 to optimize the performance under different level of power input and various load conditions.
                 Through mobile user interface, users can track power throughput, energy records and load conditions
-                with Wi-Fi connections.
+                with Wi-Fi connections. <br /><br />
+                This project was rewarded as Champion of Integrated Design Project out of 40 teams
               </p>
             </div>
             <div><hr></hr></div>

@@ -43,13 +43,15 @@ class PersonalStatement extends Component {
             <div className="col-md-8 animated fadeIn wow">
               <h2>Experiences</h2>
               <p>
-                I have prior experience in C++, Java and Python.
                 When I was HKU undergraduate, I joined an Internship Programm held by Cyberport and worked as a programmer in Shanghai,
-                this was my first coding experience. Initially, it was quite painful to settle in the job for a completely beginner like me.
-                But I found it was such an interesting job later. After I finished the internship, I got many chances to handle some school projects related to
-                programming in which I gained more understanding about computer science especially for algorithm and data structure. Besides, in my final
+                this was my first programming experience. Initially, it was quite painful to settle in the job for a completely beginner like me.
+                But I found it was such an interesting job later. After I finished the internship, I got many chances to handle school projects related to
+                programming in which I gained more understanding about computer science especially algorithm and data structure. Besides, in my final
                 year, I built a machine learning application by Python and Tensorflow as my senior design project which took me 8 months to complete. <br />
-                And now ......
+
+                And now, I am working as a full-time programmer in an IT-vendor, I gained even more pratical experiences in handling large projects, more chances
+                cooperating with professional developer or frontend developer, opportunity to work on system design rather than just coding and coding.
+                These experiences definitely help me to explore carrer.
               </p>
             </div>
             <div className="col-md-4 animated fadeIn wow">
@@ -59,20 +61,28 @@ class PersonalStatement extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4 animated fadeIn wow">
-              <div className="image-hobbies center-block">
-                <img className="responsive" src={image_hobbies}  alt='image_hobbies'/>
-              </div>
-            </div>
-            <div className="col-md-8 animated fadeIn wow">
-              <h2>Hobbies and Interests</h2>
+            <div className="col-md-12 animated fadeIn wow">
+              <h2>Why me?</h2>
               <p>
-                I like gaming, no matter which types, like FPS, TPS, RPG or Sport. Among all of them,
-                "Counter-Strike", a multiplayer shooter, is my favourite one,
-                not only of because of its gameplay, but also its customizability. It allows you to customize
-                your own map or mod to improve the playability. That&#39;s my favourite part of gaming - build your own world. <br />
-                Besides, I love Japanese culture, that&#39;s why I decided to join a semester exchange in Japan where I made many
-                international friends and experienced a wonderful life. Now, I&#39;m still learning Japanese by reading raw manga. <br />
+                I have prior experiences in many programming languages, but the main reason that I think I outperforms othres is my fast learning
+                ability. As a programmer, I willing to accept new technology, attempt new framework or languages rather than stay with
+                traditional technology without learning any new things. I can always integrated new technology to existing service in a
+                fast manner. <br />
+
+                For example, after studying the advantage of docker, I proposed to deploy all python application of a project in docker to avoid
+                dependency problem (different python version among servers). I started reading docker's documentation, tried with "hello-world" exmaple,
+                and attempted to encapsulate the application with docker. Although it takes time, finally we can just deliever the image to servers and
+                deploy it without any python dependency problem.  <br />
+
+                Having 1 year working experience, I think I have already been compatible with any of the programmer with computer-science background.
+                It proofs that I have really strong learning ability.
+
+                <br />
+                Although 4-years of studying in electrical engineering seems to be a waste, I developed a set of particlar skills including
+                mathematics or engineering which makes me a special one.
+
+
+
               </p>
             </div>
           </div>
