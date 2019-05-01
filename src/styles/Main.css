@@ -105,7 +105,7 @@
 }
 
 .progress-java > .progress-bar{
-  width: 70%;
+  width: 80%;
   background-color: #53cef1 !important;
   font-size: 1em;
   text-align: center;
@@ -118,15 +118,22 @@
   text-align: center;
 }
 
-.progress-htmlcss > .progress-bar{
+.progress-php > .progress-bar{
   width: 40%;
   background-color:#ff347e !important;
   font-size: 1em;
   text-align: center;
 }
 
+.progress-htmlcss > .progress-bar{
+  width: 50%;
+  background-color:#ff347e !important;
+  font-size: 1em;
+  text-align: center;
+}
+
 .progress-javascript > .progress-bar{
-  width: 40%;
+  width: 50%;
   background-color: #ff347e !important;
   font-size: 1em;
   text-align: center;
@@ -146,9 +153,23 @@
   text-align: center;
 }
 
-.progress-ml > .progress-bar{
+.progress-mongodb > .progress-bar{
+  width: 75%;
+  background-color: #14233d !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-sql > .progress-bar{
   width: 60%;
-  background-color: #c623ab !important;
+  background-color: #14233d !important;
+  font-size: 1em;
+  text-align: center;
+}
+
+.progress-linuxshell > .progress-bar{
+  width: 65%;
+  background-color: #724633 !important;
   font-size: 1em;
   text-align: center;
 }
@@ -175,7 +196,7 @@
 }
 
 .progress-japanese > .progress-bar{
-  width: 40%;
+  width: 50%;
   background-color: #ff347e !important;
   font-size: 1em;
   text-align: center;

@@ -5,49 +5,73 @@ import WOW from 'wowjs';
 
 const popoverHoverFocus_ee = (
   <Popover id="popover-trigger-hover-focus">
-    I have really strong academic background in Electrical Engineering !
+    I have a really strong academic background in Electrical Engineering, was the top stduent graduated from the department.
   </Popover>
 );
 
 const popoverHoverFocus_c = (
   <Popover id="popover-trigger-hover-focus">
-    Experience in Arduino Programming in C
+    Prior experience in Arduino Programming in C++
   </Popover>
 );
 
 const popoverHoverFocus_java = (
   <Popover id="popover-trigger-hover-focus">
-    Experience in android development during internship
+    Practical experience in implementnig backend application
   </Popover>
 );
 
 const popoverHoverFocus_python = (
   <Popover id="popover-trigger-hover-focus">
-    Mainly used for machine learning application in my senior design project
+    Practical experience in implementnig backend and machine learning application
   </Popover>
 );
 
 const popoverHoverFocus_htmlcss = (
   <Popover id="popover-trigger-hover-focus">
-    Self-Learning...... This is my first webpage
+    Prior experience in designing login page, profile page and ...... this webpage
   </Popover>
 );
 
 const popoverHoverFocus_javascript = (
   <Popover id="popover-trigger-hover-focus">
-    This webpage is written by ReactJs, a good practice for javascript
+    Practical experience in implementing an API-server and ....... this webpage
+  </Popover>
+);
+
+const popoverHoverFocus_php = (
+  <Popover id="popover-trigger-hover-focus">
+    Practical experience in implementing an API-server for telecom application
   </Popover>
 );
 
 const popoverHoverFocus_matlab = (
   <Popover id="popover-trigger-hover-focus">
-    Mainly used to solve the engineering problems
+    Prior experience for solving the engineering problems and implementing finanical application
   </Popover>
 );
 
 const popoverHoverFocus_ml = (
   <Popover id="popover-trigger-hover-focus">
     Experience in using tensorflow to build a machine learning model for finanical application
+  </Popover>
+);
+
+const popoverHoverFocus_mongodb = (
+  <Popover id="popover-trigger-hover-focus">
+    Practical experience in applying, deploying and maintaing MongoDB in production server (Community and Enterprise)
+  </Popover>
+);
+
+const popoverHoverFocus_sql = (
+  <Popover id="popover-trigger-hover-focus">
+    Practical experience in applying, deploying and maintaing MySQL in production server
+  </Popover>
+);
+
+const popoverHoverFocus_linuxshell = (
+  <Popover id="popover-trigger-hover-focus">
+    Practical experience in applying shell script for server maintenance. For example, log rotate, log monitor, database backup, process monitor, system resource monitor......
   </Popover>
 );
 
@@ -67,7 +91,7 @@ class Main extends Component {
               <div className="panel-heading"><span className="glyphicon">&#xe008;</span> About Me</div>
               <div className="panel-body">
                 <p>
-                  I am a fresh graduate at the University of Hong Kong with a major in electrical engineering. A highly
+                  I am a graduate at the University of Hong Kong with a major in electrical engineering. A highly
                   motivated and hardworking individual, who recently seeking for valuable opportunity for long term career
                   development in IT industry.
                 </p>
@@ -101,24 +125,30 @@ class Main extends Component {
                   <span className="align-right">September 2014 – June 2018</span>
                 </div>
                 <div>
-                  <span className="align-left">BENG in Electrical Engineering</span>
+                  <span className="align-left">BENG in Electrical Engineering (First Class Honours)</span>
                 </div>
                 <div className="progress progress-hku-gpa center-block">
                   <div className="progress-bar progress-bar-striped active" role="progressbar"
                   aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    CGPA: 3.86 out of 4.3
+                    CGPA: 3.80 out of 4.3
                   </div>
                 </div>
                 <div>
+                  Scholarships
+                  <ul>
+                    <li>Hongkong Electric Electrical Energy Scholarships for 2015-2016</li>
+                    <li>Hongkong Electric Electrical Energy Scholarships for 2016-2017</li>
+                    <li>Philip K H Wong Foundation Scholarships for Student Enrichment for 2016-2017</li>
+                    <li>Simatelex Charitable Foundation Scholarships for 2017-2018</li>
+                  </ul>
+                  Awards
                   <ul>
                       <li>Summer internship through Cyberport Digital Tech Internship Programme 2016: Shanghai stream</li>
-                      <li>Outstanding Performance in modules Microcontroller and Virtual Instrumentation in Engineering Training provided by the University of Hong Kong</li>
-                      <li>Hongkong Electric Electrical Energy Scholarships for 2015-2016</li>
+                      <li>Outstanding Performance in modules Microcontroller and Virtual Instrumentation</li>
+                      <li>Champion of Integrated Design Project - "Smart Farm with Micro Grid"</li>
                       <li>2015-2016 Dean&#39;s Honours List</li>
                       <li>2016-2017 Dean&#39;s Honours List</li>
-                      <li>Hongkong Electric Electrical Energy Scholarships for 2016-2017</li>
-                      <li>Philip K H Wong Foundation Scholarships for Student Enrichment for 2016-2017</li>
-                      <li>Simatelex Charitable Foundation Scholarships for 2017-2018</li>
+                      <li>2017-2018 Dean&#39;s Honours List</li>
                   </ul>
                 </div>
                 <hr></hr>
@@ -172,7 +202,7 @@ class Main extends Component {
                 </div>
 
                 <div>
-                  Java
+                  Java / Kotlin
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_java}>
                   <span className="glyphicon align-right">&#xe085;</span>
                   </OverlayTrigger>
@@ -220,6 +250,18 @@ class Main extends Component {
                 </div>
 
                 <div>
+                  PHP
+                  <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_php}>
+                  <span className="glyphicon align-right">&#xe085;</span>
+                  </OverlayTrigger>
+                </ div>
+                <div className="progress progress-php">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
+                  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+
+                <div>
                   Matlab
                   <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_matlab}>
                   <span className="glyphicon align-right">&#xe085;</span>
@@ -243,6 +285,42 @@ class Main extends Component {
                   </div>
                 </div>
 
+                <div>
+                  Database (MongoDB)
+                  <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_mongodb}>
+                  <span className="glyphicon align-right">&#xe085;</span>
+                  </OverlayTrigger>
+                </ div>
+                <div className="progress progress-mongodb">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
+                  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+
+                <div>
+                  Database (SQL language)
+                  <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_sql}>
+                  <span className="glyphicon align-right">&#xe085;</span>
+                  </OverlayTrigger>
+                </ div>
+                <div className="progress progress-sql">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
+                  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+
+                <div>
+                  Linux shell scripting
+                  <OverlayTrigger trigger={['hover', 'focus']} placement="bottom" overlay={popoverHoverFocus_linuxshell}>
+                  <span className="glyphicon align-right">&#xe085;</span>
+                  </OverlayTrigger>
+                </ div>
+                <div className="progress progress-linuxshell">
+                  <div className="progress-bar progress-bar-striped active" role="progressbar"
+                  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -253,6 +331,46 @@ class Main extends Component {
             <div className="panel panel-primary panel-working-experience">
               <div className="panel-heading"><span className="glyphicon">&#xe139;</span> Working Experience</div>
               <div className="panel-body">
+              <div>
+                <span className="align-left">Zensis Limited</span>
+                <span className="align-right">China, Hong Kong</span>
+              </div>
+              <div>
+                <span className="align-left">Backend Developer</span>
+                <span className="align-right">June 2018 – "Present"</span>
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    OpenUp (online text platform for emotional support)
+                    <ul>
+                      <li>Implemented real-time chat system which supports WeChat, FaceBook and SMS</li>
+                      <li>Implemented Oauth2.0 protocol for system authorization</li>
+                      <li>Enhanced chatbot for replying and analysing helpseeker automatically</li>
+                      <li>Cooperated with Frontend Developer and Counsellor</li>
+                    </ul>
+                  </li>
+                  <br/>
+                  <li>
+                    Generic User Profile (user profile server)
+                    <ul>
+                      <li>Implemented hourly and daily report for update and query operations</li>
+                      <li>Enhanced searching profile with special character</li>
+                      <li>Implemented real-time IMEI update system which synchronizes customer's IMEI info with the IMEI value in GUP</li>
+                      <li>Copperated with Software Engineer in Information Services Division (SmarTone)</li>
+                    </ul>
+                  </li>
+                  <br/>
+                  <li>
+                    HTTPSMS (SMS job through HTTPS)
+                    <ul>
+                      <li>Implemented SMPP client to submit sms message to SMSC</li>
+                      <li>Enhanced performance (tps) by 30% comparing to legacy system</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <hr></hr>
                 <div>
                   <span className="align-left">SIM Technology Group</span>
                   <span className="align-right">China, Shanghai</span>
@@ -268,20 +386,6 @@ class Main extends Component {
                     <li>Translated document from Japanese into English and Simplified Chinese</li>
                   </ul>
                 </div>
-                <hr></hr>
-                <div>
-                  <span className="align-left">Zensis Limited</span>
-                  <span className="align-right">China, Hong Kong</span>
-                </div>
-                <div>
-                  <span className="align-left">Programmer</span>
-                  <span className="align-right">June 2018 – "Present"</span>
-                </div>
-                <div>
-                  <ul>
-                  </ul>
-                </div>
-
               </div>
             </div>
           </div>
