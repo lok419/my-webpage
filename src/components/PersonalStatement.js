@@ -3,7 +3,6 @@ import '../styles/PersonalStatement.css';
 import WOW from 'wowjs';
 import image_personal from '../images/personal.jpg';
 import image_programming from '../images/programming.jpg';
-import image_hobbies from '../images/hobbies.png';
 
 class PersonalStatement extends Component {
   componentDidMount(){
@@ -65,23 +64,20 @@ class PersonalStatement extends Component {
               <h2>Why me?</h2>
               <p>
                 I have prior experiences in many programming languages, but the main reason that I think I outperforms othres is my fast learning
-                ability. As a programmer, I willing to accept new technology, attempt new framework or languages rather than stay with
+                ability. As a programmer, I am willing to accept new technology, attempt new framework or languages rather than stay with
                 traditional technology without learning any new things. I can always integrated new technology to existing service in a
                 fast manner. <br />
 
                 For example, after studying the advantage of docker, I proposed to deploy all python application of a project in docker to avoid
                 dependency problem (different python version among servers). I started reading docker's documentation, tried with "hello-world" exmaple,
                 and attempted to encapsulate the application with docker. Although it takes time, finally we can just deliever the image to servers and
-                deploy it without any python dependency problem.  <br />
+                deploy it without any dependency concerns.  <br />
 
                 Having 1 year working experience, I think I have already been compatible with any of the programmer with computer-science background.
-                It proofs that I have really strong learning ability.
+                It proofs that I have really strong learning ability.<br />
 
-                <br />
                 Although 4-years of studying in electrical engineering seems to be a waste, I developed a set of particlar skills including
                 mathematics or engineering which makes me a special one.
-
-
 
               </p>
             </div>

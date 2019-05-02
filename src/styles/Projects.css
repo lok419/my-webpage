@@ -103,6 +103,13 @@
   margin-top: 80px;
 }
 
+.image-openup_poster > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
 @media only screen and (max-width: 991px) {
   .image-project1_1 {
     margin-top: 20px;

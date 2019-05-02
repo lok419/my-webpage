@@ -344,20 +344,22 @@ class Main extends Component {
                   <li>
                     OpenUp (online text platform for emotional support)
                     <ul>
-                      <li>Implemented real-time chat system which supports WeChat, FaceBook and SMS</li>
+                      <li>Implemented HTTP gateway which supports WeChat, FaceBook and SMS</li>
                       <li>Implemented Oauth2.0 protocol for system authorization</li>
-                      <li>Enhanced chatbot for replying and analysing helpseeker automatically</li>
-                      <li>Cooperated with Frontend Developer and Counsellor</li>
+                      <li>Implemented API Server for frontend application</li>
+                      <li>Enhanced chatbot for auto-replying and smart analysis of helpseeker crysis level</li>
+                      <li>Cooperated with Software Engineer and Counsellor from Jockey Club, Data Analyst from HKU, Frontend Developer</li>
                     </ul>
                   </li>
                   <br/>
                   <li>
                     Generic User Profile (user profile server)
                     <ul>
-                      <li>Implemented hourly and daily report for update and query operations</li>
+                      <li>Implemented real-time IMEI update system which synchronizes customer's IMEI infomation</li>
                       <li>Enhanced searching profile with special character</li>
-                      <li>Implemented real-time IMEI update system which synchronizes customer's IMEI info with the IMEI value in GUP</li>
-                      <li>Copperated with Software Engineer in Information Services Division (SmarTone)</li>
+                      <li>Maintained 10 production servers</li>
+                      <li>Responsible for producing hourly and daily statistics for update and query operations</li>
+                      <li>Cooperated with Software Engineer in Information Services Division (SmarTone)</li>
                     </ul>
                   </li>
                   <br/>
