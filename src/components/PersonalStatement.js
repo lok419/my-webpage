@@ -48,9 +48,9 @@ class PersonalStatement extends Component {
                 programming in which I gained more understanding about computer science especially algorithm and data structure. Besides, in my final
                 year, I built a machine learning application by Python and Tensorflow as my senior design project which took me 8 months to complete. <br />
 
-                And now, I am working as a full-time programmer in an IT-vendor, I gained even more pratical experiences in handling large projects, more chances
+                And now, I am working as a full-time programmer in an IT-vendor, I gained even more practical experiences in handling large projects, more chances
                 cooperating with professional developer or frontend developer, opportunity to work on system design rather than just coding and coding.
-                These experiences definitely help me to explore carrer.
+                These experiences definitely help me to further explore my career.
               </p>
             </div>
             <div className="col-md-4 animated fadeIn wow">
@@ -70,14 +70,14 @@ class PersonalStatement extends Component {
 
                 For example, after studying the advantage of docker, I proposed to deploy all python application of a project in docker to avoid
                 dependency problem (different python version among servers). I started reading docker's documentation, tried with "hello-world" exmaple,
-                and attempted to encapsulate the application with docker. Although it takes time, finally we can just deliever the image to servers and
+                and attempted to encapsulate the application with docker. Although it took time, finally we could just deliever the image to servers and
                 deploy it without any dependency concerns.  <br />
 
                 Having 1 year working experience, I think I have already been compatible with any of the programmer with computer-science background.
                 It proofs that I have really strong learning ability.<br />
 
                 Although 4-years of studying in electrical engineering seems to be a waste, I developed a set of particlar skills including
-                mathematics or engineering which makes me a special one.
+                mathematics or engineering, I believe my achievement in electrical engineering proofs that I am a special one.
 
               </p>
             </div>

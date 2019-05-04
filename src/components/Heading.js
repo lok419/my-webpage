@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import icon1 from '../images/icon1.png'
-import icon2 from '../images/icon2.png'
+import icon1 from '../images/icon1.jpeg'
+import icon2 from '../images/icon2.jpeg'
 import '../styles/Heading.css';
 import WOW from 'wowjs';
 
