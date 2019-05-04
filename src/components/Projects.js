@@ -93,7 +93,7 @@ class Projects extends Component {
                 Contributions:
                 <ul>
                   <li>Implemented GIMEI system</li>
-                  <li>Maintained 10 production servers</li>
+                  <li>Maintenance and support for 10 production servers</li>
                   <li>Enhanced searching profile with special character</li>
                   <li>Daily database backup</li>
                   <li>Daily and hourly statistics for query and update operations</li>

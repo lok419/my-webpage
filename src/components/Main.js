@@ -357,7 +357,7 @@ class Main extends Component {
                     <ul>
                       <li>Implemented real-time IMEI update system which synchronizes customer's IMEI infomation</li>
                       <li>Enhanced searching profile with special character</li>
-                      <li>Maintained 10 production servers</li>
+                      <li>Maintenance and support for 10 production servers</li>
                       <li>Responsible for producing hourly and daily statistics for update and query operations</li>
                       <li>Cooperated with Software Engineer in Information Services Division (SmarTone)</li>
                     </ul>
@@ -367,7 +367,7 @@ class Main extends Component {
                     HTTPSMS (SMS job through HTTPS)
                     <ul>
                       <li>Implemented SMPP client to submit sms message to SMSC</li>
-                      <li>Enhanced performance (tps) by 30% comparing to legacy system</li>
+                      <li>Enhanced performance (TPS) by 30% comparing to legacy system</li>
                     </ul>
                   </li>
                 </ul>
